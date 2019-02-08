@@ -1,6 +1,6 @@
 def reverse_each_word(sentence1)
   newSentence = []
-  sentence1.split(/ /).each {|x| newSentence << x.reverse} 
+  sentence1.split(/ /).each {|x| x.reverse >> newSentence} 
 end
 
 # def reverse_each_word(sentence2)
