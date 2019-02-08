@@ -1,6 +1,6 @@
 def reverse_each_word(sentence1)
-  sentence1.split(/ /).each do |variable|
-    code
+  sentence1.split(/ /).each do |x|
+    x.reverse 
    end
 end
 
