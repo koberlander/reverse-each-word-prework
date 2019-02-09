@@ -6,5 +6,5 @@ end
 
 
 def reverse_each_word(sentence2)
-  sentence2.split(/ /).collect {|element| element.reverse}
+  sentence2.split(/ /).collect.join {|element| element.reverse}
 end
